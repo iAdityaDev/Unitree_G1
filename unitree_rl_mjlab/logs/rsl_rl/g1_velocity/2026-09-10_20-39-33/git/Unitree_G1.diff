@@ -1,0 +1,334 @@
+--- git commit ---
+b684fdb3e8252f686a2cbaaf3e08eb847d36d8ef
+
+
+--- git status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   unitree_rl_mjlab/src/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_a2/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_a2/__pycache__/a2_constants.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_as2/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_as2/__pycache__/as2_constants.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/g1_23dof_constants.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/g1_constants.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_go2/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_go2/__pycache__/go2_constants.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_h1_2/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_h1_2/__pycache__/h1_2_constants.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_h2/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_h2/__pycache__/h2_constants.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_r1/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/assets/robots/unitree_r1/__pycache__/r1_constants.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/__pycache__/tracking_env_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/config/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/env_cfgs.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/rl_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/env_cfgs.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/rl_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/commands.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/metrics.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/observations.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/rewards.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/terminations.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/rl/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/tracking/rl/__pycache__/runner.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/__pycache__/velocity_env_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/env_cfgs.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/rl_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/env_cfgs.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/rl_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/env_cfgs.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/rl_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/env_cfgs.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/rl_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/env_cfgs.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/rl_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/env_cfgs.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/rl_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/env_cfgs.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/rl_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/env_cfgs.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/rl_cfg.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/curriculums.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/observations.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/rewards.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/terminations.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/velocity_command.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/rl/__pycache__/__init__.cpython-311.pyc
+	modified:   unitree_rl_mjlab/src/tasks/velocity/rl/__pycache__/runner.cpython-311.pyc
+	modified:   unitree_rl_mjlab/wandb/debug-internal.log
+	modified:   unitree_rl_mjlab/wandb/debug.log
+	modified:   unitree_rl_mjlab/wandb/latest-run
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	unitree_rl_mjlab/logs/rsl_rl/g1_velocity/2026-09-10_20-39-33/
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+
+--- git diff ---
+diff --git a/unitree_rl_mjlab/src/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/__pycache__/__init__.cpython-311.pyc
+index 1f84c30..3aafa47 100644
+Binary files a/unitree_rl_mjlab/src/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/assets/__pycache__/__init__.cpython-311.pyc
+index 24d35da..be64742 100644
+Binary files a/unitree_rl_mjlab/src/assets/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/__pycache__/__init__.cpython-311.pyc
+index f0d2d9c..da66458 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_a2/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_a2/__pycache__/__init__.cpython-311.pyc
+index 99568c1..51d30db 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_a2/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_a2/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_a2/__pycache__/a2_constants.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_a2/__pycache__/a2_constants.cpython-311.pyc
+index 8de90a2..508f1c0 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_a2/__pycache__/a2_constants.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_a2/__pycache__/a2_constants.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_as2/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_as2/__pycache__/__init__.cpython-311.pyc
+index 8b0ca79..4c26c87 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_as2/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_as2/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_as2/__pycache__/as2_constants.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_as2/__pycache__/as2_constants.cpython-311.pyc
+index ea2ddd3..40c740e 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_as2/__pycache__/as2_constants.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_as2/__pycache__/as2_constants.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/__init__.cpython-311.pyc
+index 881865d..dc054f7 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/g1_23dof_constants.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/g1_23dof_constants.cpython-311.pyc
+index f249757..da7e70d 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/g1_23dof_constants.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/g1_23dof_constants.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/g1_constants.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/g1_constants.cpython-311.pyc
+index 6cdc53e..44d3d72 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/g1_constants.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_g1/__pycache__/g1_constants.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_go2/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_go2/__pycache__/__init__.cpython-311.pyc
+index cc69694..6dde02b 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_go2/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_go2/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_go2/__pycache__/go2_constants.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_go2/__pycache__/go2_constants.cpython-311.pyc
+index ad79115..03f8534 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_go2/__pycache__/go2_constants.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_go2/__pycache__/go2_constants.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_h1_2/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_h1_2/__pycache__/__init__.cpython-311.pyc
+index 0c6dd49..e984907 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_h1_2/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_h1_2/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_h1_2/__pycache__/h1_2_constants.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_h1_2/__pycache__/h1_2_constants.cpython-311.pyc
+index a3532f6..9dbb79d 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_h1_2/__pycache__/h1_2_constants.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_h1_2/__pycache__/h1_2_constants.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_h2/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_h2/__pycache__/__init__.cpython-311.pyc
+index 4cd833b..7020be4 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_h2/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_h2/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_h2/__pycache__/h2_constants.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_h2/__pycache__/h2_constants.cpython-311.pyc
+index 6aba4b7..3ca2b4e 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_h2/__pycache__/h2_constants.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_h2/__pycache__/h2_constants.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_r1/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_r1/__pycache__/__init__.cpython-311.pyc
+index 1dd9a3b..bc189e2 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_r1/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_r1/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/assets/robots/unitree_r1/__pycache__/r1_constants.cpython-311.pyc b/unitree_rl_mjlab/src/assets/robots/unitree_r1/__pycache__/r1_constants.cpython-311.pyc
+index 30433b2..7fbb534 100644
+Binary files a/unitree_rl_mjlab/src/assets/robots/unitree_r1/__pycache__/r1_constants.cpython-311.pyc and b/unitree_rl_mjlab/src/assets/robots/unitree_r1/__pycache__/r1_constants.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/__pycache__/__init__.cpython-311.pyc
+index f1f4502..91f57ca 100644
+Binary files a/unitree_rl_mjlab/src/tasks/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/__pycache__/__init__.cpython-311.pyc
+index 8b989d3..aa9e813 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/__pycache__/tracking_env_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/__pycache__/tracking_env_cfg.cpython-311.pyc
+index 1ca2a94..269e8c0 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/__pycache__/tracking_env_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/__pycache__/tracking_env_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/config/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/config/__pycache__/__init__.cpython-311.pyc
+index 4550bf2..7bba278 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/config/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/config/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/__init__.cpython-311.pyc
+index e12ff9d..c51ed91 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/env_cfgs.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/env_cfgs.cpython-311.pyc
+index 50cb993..57e3c41 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/env_cfgs.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/env_cfgs.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/rl_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/rl_cfg.cpython-311.pyc
+index 515f5a0..e22c593 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/rl_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/config/g1/__pycache__/rl_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/__init__.cpython-311.pyc
+index bc2796e..2aa135e 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/env_cfgs.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/env_cfgs.cpython-311.pyc
+index c8f4a03..7a4cd37 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/env_cfgs.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/env_cfgs.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/rl_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/rl_cfg.cpython-311.pyc
+index 0ca7cb5..2d121d1 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/rl_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/config/g1_23dof/__pycache__/rl_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/__init__.cpython-311.pyc
+index 7dad88d..3ebda65 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/commands.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/commands.cpython-311.pyc
+index dfcc698..c4571ab 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/commands.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/commands.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/metrics.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/metrics.cpython-311.pyc
+index fe624c6..689bb75 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/metrics.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/metrics.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/observations.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/observations.cpython-311.pyc
+index f7c89f7..3ab3662 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/observations.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/observations.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/rewards.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/rewards.cpython-311.pyc
+index 56a515c..7f5d2e4 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/rewards.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/rewards.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/terminations.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/terminations.cpython-311.pyc
+index 0ce75c6..5c10464 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/terminations.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/mdp/__pycache__/terminations.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/rl/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/rl/__pycache__/__init__.cpython-311.pyc
+index 72bdd0d..0434dae 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/rl/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/rl/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/tracking/rl/__pycache__/runner.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/tracking/rl/__pycache__/runner.cpython-311.pyc
+index d6fbe65..cd3f2a9 100644
+Binary files a/unitree_rl_mjlab/src/tasks/tracking/rl/__pycache__/runner.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/tracking/rl/__pycache__/runner.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/__pycache__/__init__.cpython-311.pyc
+index 3f7f3e9..458bb7c 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/__pycache__/velocity_env_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/__pycache__/velocity_env_cfg.cpython-311.pyc
+index ece2ff1..ee4ad12 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/__pycache__/velocity_env_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/__pycache__/velocity_env_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/__pycache__/__init__.cpython-311.pyc
+index 24a0f78..01fb952 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/__init__.cpython-311.pyc
+index d0be15c..70c904a 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/env_cfgs.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/env_cfgs.cpython-311.pyc
+index c449d07..3dcbf72 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/env_cfgs.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/env_cfgs.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/rl_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/rl_cfg.cpython-311.pyc
+index 7767bb8..49dae3f 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/rl_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/a2/__pycache__/rl_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/__init__.cpython-311.pyc
+index ba8bd45..215d732 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/env_cfgs.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/env_cfgs.cpython-311.pyc
+index 90b0794..6b7d606 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/env_cfgs.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/env_cfgs.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/rl_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/rl_cfg.cpython-311.pyc
+index bbb6bb7..4ef7709 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/rl_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/as2/__pycache__/rl_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/__init__.cpython-311.pyc
+index af6c7c8..5b11904 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/env_cfgs.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/env_cfgs.cpython-311.pyc
+index d93f762..7246cd3 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/env_cfgs.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/env_cfgs.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/rl_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/rl_cfg.cpython-311.pyc
+index f482b0c..83d92e6 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/rl_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/g1/__pycache__/rl_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/__init__.cpython-311.pyc
+index bf88cb0..e330981 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/env_cfgs.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/env_cfgs.cpython-311.pyc
+index 23d148e..323a24e 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/env_cfgs.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/env_cfgs.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/rl_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/rl_cfg.cpython-311.pyc
+index 66142b7..38e7888 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/rl_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/g1_23dof/__pycache__/rl_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/__init__.cpython-311.pyc
+index 92657fe..a9b6edc 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/env_cfgs.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/env_cfgs.cpython-311.pyc
+index 7266e40..ddf894b 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/env_cfgs.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/env_cfgs.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/rl_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/rl_cfg.cpython-311.pyc
+index e7c84a5..790764c 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/rl_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/go2/__pycache__/rl_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/__init__.cpython-311.pyc
+index 4e32689..170d3c7 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/env_cfgs.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/env_cfgs.cpython-311.pyc
+index 2c53d5c..6e985b6 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/env_cfgs.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/env_cfgs.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/rl_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/rl_cfg.cpython-311.pyc
+index a32cafe..d8641f8 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/rl_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/h1_2/__pycache__/rl_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/__init__.cpython-311.pyc
+index 0e4875e..87e0993 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/env_cfgs.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/env_cfgs.cpython-311.pyc
+index be54de6..3f5f78c 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/env_cfgs.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/env_cfgs.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/rl_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/rl_cfg.cpython-311.pyc
+index 1633bb3..646b4d0 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/rl_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/h2/__pycache__/rl_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/__init__.cpython-311.pyc
+index dbbda37..b82d94e 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/env_cfgs.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/env_cfgs.cpython-311.pyc
+index b281178..cc5aca9 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/env_cfgs.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/env_cfgs.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/rl_cfg.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/rl_cfg.cpython-311.pyc
+index ef29f2f..3c43802 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/rl_cfg.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/config/r1/__pycache__/rl_cfg.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/__init__.cpython-311.pyc
+index 86ce802..1f028ce 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/curriculums.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/curriculums.cpython-311.pyc
+index 12f7c69..615a9fb 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/curriculums.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/curriculums.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/observations.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/observations.cpython-311.pyc
+index affb839..3187cef 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/observations.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/observations.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/rewards.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/rewards.cpython-311.pyc
+index 9d6a4a1..8c7cafa 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/rewards.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/rewards.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/terminations.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/terminations.cpython-311.pyc
+index 2ce8943..ea2f4da 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/terminations.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/terminations.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/velocity_command.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/velocity_command.cpython-311.pyc
+index 3db7abe..de5d7f1 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/velocity_command.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/mdp/__pycache__/velocity_command.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/rl/__pycache__/__init__.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/rl/__pycache__/__init__.cpython-311.pyc
+index b841a2c..6bb8fad 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/rl/__pycache__/__init__.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/rl/__pycache__/__init__.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/src/tasks/velocity/rl/__pycache__/runner.cpython-311.pyc b/unitree_rl_mjlab/src/tasks/velocity/rl/__pycache__/runner.cpython-311.pyc
+index 5bcdfd1..8a3cce7 100644
+Binary files a/unitree_rl_mjlab/src/tasks/velocity/rl/__pycache__/runner.cpython-311.pyc and b/unitree_rl_mjlab/src/tasks/velocity/rl/__pycache__/runner.cpython-311.pyc differ
+diff --git a/unitree_rl_mjlab/wandb/debug-internal.log b/unitree_rl_mjlab/wandb/debug-internal.log
+index 4e394af..53401a7 120000
+--- a/unitree_rl_mjlab/wandb/debug-internal.log
++++ b/unitree_rl_mjlab/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20260910_174730-toxrujav/logs/debug-internal.log
+\ No newline at end of file
++run-20260910_203938-0mtao7kl/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/unitree_rl_mjlab/wandb/debug.log b/unitree_rl_mjlab/wandb/debug.log
+index 559a26d..7885ea8 120000
+--- a/unitree_rl_mjlab/wandb/debug.log
++++ b/unitree_rl_mjlab/wandb/debug.log
+@@ -1 +1 @@
+-run-20260910_174730-toxrujav/logs/debug.log
+\ No newline at end of file
++run-20260910_203938-0mtao7kl/logs/debug.log
+\ No newline at end of file
+diff --git a/unitree_rl_mjlab/wandb/latest-run b/unitree_rl_mjlab/wandb/latest-run
+index 40fb8f6..ebfc926 120000
+--- a/unitree_rl_mjlab/wandb/latest-run
++++ b/unitree_rl_mjlab/wandb/latest-run
+@@ -1 +1 @@
+-run-20260910_174730-toxrujav
+\ No newline at end of file
++run-20260910_203938-0mtao7kl
+\ No newline at end of file
