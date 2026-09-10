@@ -1,0 +1,44 @@
+{
+  "os": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.11.16",
+  "startedAt": "2026-09-09T21:46:16.772037Z",
+  "args": [
+    "Unitree-G1-Tracking-No-State-Estimation",
+    "--motion_file=src/assets/motions/g1/dance1_subject2.npz",
+    "--env.scene.num-envs=256"
+  ],
+  "program": "/home/dev/Unitree_G1/unitree_rl_mjlab/scripts/train.py",
+  "codePath": "unitree_rl_mjlab/scripts/train.py",
+  "codePathLocal": "scripts/train.py",
+  "git": {
+    "remote": "git@github.com:iAdityaDev/Unitree_G1.git",
+    "commit": "ff9d2a52e9f910606edb4b9d48b05bf3fa4e4a1e"
+  },
+  "root": "/home/dev/Unitree_G1/unitree_rl_mjlab",
+  "host": "deviant",
+  "executable": "/home/dev/miniconda3/envs/unitree_rl_mjlab/bin/python",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "90117742592",
+      "used": "16545751040"
+    }
+  },
+  "memory": {
+    "total": "15945166848"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "memoryTotal": "4294967296",
+      "cudaCores": 2048,
+      "architecture": "Ampere",
+      "uuid": "GPU-76159072-8919-6d2a-4d33-eb4be373d9bb"
+    }
+  ],
+  "cudaVersion": "13.2",
+  "writerId": "m01u6p7qqtlq605lrxfrr5vedeodv09j"
+}
