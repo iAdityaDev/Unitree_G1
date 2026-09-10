@@ -1,7 +1,5 @@
 *.egg-info
 .idea
-outputs
-logs
 wandb
 MUJOCO_LOG.TXT
 deploy/robots/go2/build
