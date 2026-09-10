@@ -1,8 +1,0 @@
-*.egg-info
-.idea
-deploy/robots/go2/build
-deploy/robots/g1/build
-deploy/robots/h1_2/build
-deploy/robots/g1_23dof/build
-deploy/robots/r1/build
-deploy/robots/a2/build
